@@ -1,0 +1,14 @@
+<script>
+    window.performCall = async () => {
+        var response = await fetch("http://localhost:5290");
+        alert(await response.text());
+    };
+
+    window.callHenk = async (message) => {
+        var response = await fetch(`http://localhost:5290/henk/${message}`);
+        alert(await response.text());
+    };
+</script>
+<button onclick="performCall()">Perform call</button>
+<button onclick="callHenk(document.getElementById('message').value)">Call Henk</button>
+<input id="message" />
