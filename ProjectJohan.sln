@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client-Web", "Client-Web", "{187EF01A-DB81-4DAB-9AA4-5E3C6E77F6B9}"
 	ProjectSection(SolutionItems) = preProject
 		Client-Web\index.html = Client-Web\index.html
+		Client-Web\manifest.json = Client-Web\manifest.json
 	EndProjectSection
 EndProject
 Global
